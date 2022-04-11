@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 15px;
+    border-radius: 8px 0px 8px 8px;
+    background-image: linear-gradient(45deg, #000 0%, #000 90%, #ffffff00 90%, #00000000 100%);
+}
+.card__metal{
+    background-color: gray;
+    border-top: 2px solid #ffffff;
+    background-image: linear-gradient(45deg, #808080 0%, #808080 90%, #ffffff00 90%, #00000000 100%);
+    width: 180px;
+}
+
+.card__title{
+    font-size:20px
+}
+
+.card__img{
+    width: 100%;
+    max-width: 250px;
+}
